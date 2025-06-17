@@ -1,0 +1,134 @@
+h1 {
+  font-family: "Press Start 2P", system-ui;
+}
+
+h2,
+.ketJudul {
+  font-family: "EB Garamond", serif;
+}
+
+.fotosekelas {
+  height: 100%;
+  width: auto;
+}
+
+.fotbar {
+  height: 20%;
+  width: 340px;
+}
+
+.linkContact {
+  color: #a392ea;
+  text-decoration: none;
+}
+
+.ungu {
+  color: #4d3c91;
+  font-style: normal;
+}
+
+.unguGelap {
+  background-color: #282b37;
+}
+
+.putih {
+  color: white;
+}
+
+.borderUngu {
+  border: 2px solid #a392ea;
+}
+
+#Contact img {
+  height: 200px;
+  width: 100%;
+}
+
+.jarakFotbar {
+  gap: 10px;
+}
+
+/* MUTER AE SEMUA MUTER */
+.rotateKanan {
+  transition: transform 0.6s ease;
+}
+
+.rotateKiri {
+  transition: transform 0.6s ease;
+}
+
+.rotateKiri:hover {
+  transform: rotate(-5deg) scale(1.05);
+}
+
+.rotateKanan:hover {
+  transform: rotate(5deg) scale(1.05);
+}
+
+.rotateHakim {
+  transition: transform 0.6s ease;
+}
+
+.rotateHakim:hover {
+  transform: rotate(180deg) scale(1.05);
+}
+
+.teksHakim {
+  transform: rotate(180deg);
+}
+
+.rotateContactHakim:hover {
+  animation: rotateHakim 1s linear infinite;
+}
+@keyframes rotateHakim {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.radenmuter {
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.radenmuter:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(720deg);
+}
+
+.rotateHanif {
+  transition: transform 2s;
+}
+
+.rotateHanif:hover {
+  transform: rotate(720deg) scale(1.2);
+}
+
+/* ALANGKE SARO STYLING TOOLTIP NI OEE */
+.tooltip.show {
+  opacity: 1 !important;
+}
+.tooltip-inner {
+  color: white;
+  background-color: #21232d;
+}
+.tooltip-arrow::before {
+  border-bottom-color: #21232d !important;
+}
+
+/* Sejahat itu ternyato kau diah 
+    ok fine
+
+    ak anak baik
+
+    BOHONGG
+    CONFLICT NIH GAWE KAU
+
+    Theme Color HEX:
+    #21232d
+    #a392ea
+    #282b37
+*/
